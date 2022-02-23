@@ -186,3 +186,57 @@
     color: #A7AAAD;
     margin-top: 8px;
 }
+
+.examples {
+    display: flex;
+}
+
+.examples div {
+    flex: 0.25;
+}
+
+.examples img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color:#90D4C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.footer .logo {
+    
+    color:#2C7566;
+}
+
+.footer-navigation {
+    color: #458D7E;
+    margin-top: 25px;
+    font-weight: bold;
+    
+}
+
+.footer-navigation span {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.footer-navigation span:hover {
+    color: #afe7db;
+}
+
+.footer .socail-media {
+    margin-top: 30px;  
+    
+}
+
+.socail-media img {
+    padding: 4px;
+}
+
