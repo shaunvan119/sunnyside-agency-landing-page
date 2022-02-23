@@ -60,9 +60,15 @@
     font-weight: bold; 
 }
 
-.arrow {
-    margin-top: 60px;
+.main span {
+    padding: 0px 0px 200px 0px;
 }
+
+.arrow {
+    margin-bottom: 60px;
+    
+}
+
 
 .section1, .section2  {
     display: flex;
