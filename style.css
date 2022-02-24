@@ -246,3 +246,32 @@
     padding: 4px;
 }
 
+@media (max-width: 575.98px) {
+   .section1 {
+       flex-direction: column;
+       height: auto;
+   }
+
+   .section1 .left {
+       padding-bottom: 20px;
+       padding-top: 20px;
+   }
+
+   .examples {
+       flex-wrap: wrap;
+   }
+
+   .examples div {
+       flex: 0.5;
+       flex-basis: 50%;
+       
+   }
+
+   .clients {
+       flex-direction: column;
+   }
+
+   .clients .client {
+       margin-top: 50px;
+   }
+}
