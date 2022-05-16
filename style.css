@@ -40,6 +40,7 @@
     background-color: white;
     color: black;
     padding: 8px 30px;
+    margin-top: 10px;
     border-radius: 20px;
     cursor: pointer;
     transition: 0.25s all ease-in-out;
@@ -282,17 +283,12 @@
 
 @media (max-width: 500px) {
     .main {
-        
         display: flex;
         margin-left: 10px;
-       
-        
     }
 
-    .menu {
-        
+    .menu { 
         margin-top: 10px;
-        
     }
 
     .menu-options {
